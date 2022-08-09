@@ -10,18 +10,21 @@
     <div class="container">
         <div class="info">
             <img src="avatar.jpg" alt="My Photo" class="avatar" />
-            <h1>Andriy Gladishko</h1>
-            <p>I`m QA Engineer</p>
-            <p>I am glad for new opportunities and challenges</p>
-            <p>I like to travel, sport and <strong><a href="https://training.qatestlab.com/" target="_blank">
-                        testing</a></strong></p>
 
-            <h4>My social network</h4>
+            <div class="info-text">
+                <h1>Andriy Gladishko</h1>
+                <p>I`m QA Engineer</p>
+                <p>I am glad for new opportunities and challenges</p>
+                <p>I like to travel, sport and <strong><a href="https://training.qatestlab.com/" target="_blank">
+                            testing</a></strong></p>
 
-            <a href="https://instagram.com/andriygladishko" target="_blank">Instagram</a></li> |
-            <a href="https://youtube.com">Facebook</a></li> |
-            <a href="TikTok">TikTok</a></li> |
-            <a href="https://t.me/AndriyGladishko">Telegram</a></li>
+                <h4>My social network</h4>
+
+                <a href="https://instagram.com/andriygladishko" target="_blank">Instagram</a></li> |
+                <a href="https://youtube.com">Facebook</a></li> |
+                <a href="TikTok">TikTok</a></li> |
+                <a href="https://t.me/AndriyGladishko">Telegram</a></li>
+            </div>
         </div>
 
         <div class="card bg-yellow">
@@ -56,34 +59,43 @@
 
         <div class="card bg-red">
             <h2>My Projects</h2>
-            <ul>
+            <ul class="link-list">
                 <li>
-                    <a href="https://www.youtube.com/watch?v=DOEtVdkKwcU&t=2691s" target="_blank">First lesson that I studied</a>
+                    <a href="https://www.youtube.com/watch?v=DOEtVdkKwcU&t=2691s" target="_blank">First lesson that I
+                        studied</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=SEvR78OhGtw&t=25s" target="_blank">Git. Big practical
+                        issue</a>
                 </li>
             </ul>
         </div>
 
-        <div class="card">
-            <h2>Contact me</h2>
-            <form action="/">
-                <label for="name">Your name: </label>
-                <input type="text" id="name" placeholder="Enter your name">
+        <div class="contact">
+            <div class="card">
+                <h2>Contact me</h2>
+                <form action="/">
 
-                <br>
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="name">Your name: </label>
+                            <input type="text" id="name" placeholder="enter your name">
+                        </div>
 
-                <label for="email">Your Email: </label>
-                <input type="email" id="email" placeholder="Your email">
+                        <div class="form-group">
+                            <label for="email">Your Email: </label>
+                            <input type="email" id="email" placeholder="enter your email">
+                        </div>
+                    </div>
 
-                <br>
+                    <div class="form-group">
+                        <label for="area">Your message:</label>
+                        <textarea name="area" id="area" cols="30" rows="5"></textarea>
+                    </div>
 
-                <label for="area">Your message:</label>
-                <br>
-                <textarea name="area" id="area" cols="30" rows="5"></textarea>
-
-                <br>
-
-                <input type="submit" value="Send">
-            </form>
+                    <input class="btn" type="submit" value="Send">
+                </form>
+            </div>
         </div>
 
     </div>
